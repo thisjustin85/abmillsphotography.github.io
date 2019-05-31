@@ -1,0 +1,566 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    line-height:1.5em;
+    margin:0;
+    padding:0;
+    background-color: #fff
+}
+
+img {
+    width:100%;
+}
+
+.container-fluid {
+    margin: auto;
+}
+
+/* common classes */
+.primary-text{
+    font-family: 'Courgette', cursive;
+    color:#56a79a;
+}
+
+.primary-background{
+    background:#56a79a;
+}
+
+/*header*/
+
+#main-header{
+    border-bottom: 1px solid #56a79a;
+}
+
+/*nav bar*/
+
+#navbar{
+    text-transform: uppercase;
+}
+
+#navbar li{
+    display: inline;
+    padding-right: 20px;
+    list-style: none;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: #888;
+}
+
+#navbar li.current a, #navbar a:hover{
+    color:#56a79a;
+    border-bottom: 3x solid #56a79a;
+    padding-bottom: 3px;
+}
+
+
+/*showcase*/
+
+#showcase{
+    background:url('../images/ab-bg.jpg') no-repeat center center;
+    background-size: cover;
+    border-bottom: 1px solid #56a79a;
+    margin-bottom: 30px;
+}
+
+#showcase .row{
+    height: 500px;
+}
+
+#showcase h1{
+    font-size: 40px;
+    margin:0;
+    padding-bottom: 20px;
+}
+
+#showcase p{
+    color: #ccc;
+    margin:0;
+}
+
+#showcase .showcase-content{
+    background: #333;
+    color:white;
+    border-radius: 90px;
+    padding: 40px;
+    opacity: 0.9;
+}
+
+/*about me*/
+#about-me {
+    padding:0;
+    margin:0;
+    border-bottom: 1px solid #56a79a;
+}
+
+#about-me img{
+    border-radius: 10px;
+    box-shadow: 0 0 2px 1px #222;
+}
+
+#about-me p{
+    background: #333;
+    box-shadow: 0 0 2px 1px #000;
+    color:#fff;
+    border-radius: 10px;
+    padding:20px;
+    opacity: .9;
+}
+
+
+/*experience*/
+#experience {
+    background-size: cover;
+    margin:0;
+    padding-top: 10px;
+}
+
+#experience .experience-content{
+    background:#333;
+    border-radius:20px;
+    color:#fff;
+}
+
+#experience h2{
+    font-size: 35px;
+    margin:10px;
+    padding-bottom: 10px;
+    text-shadow: #000 2px 2px;
+}
+
+#experience p{
+    color: bisque;
+    margin:0;
+    margin-bottom:40px;
+}
+
+#experience .fas{
+    font-size: 50px;
+    color: #56a79a;
+}
+
+/*portfolio*/
+#portfolio{
+    background: url('../images/info-bg.jpg');
+    background-size: cover;
+    border-radius: 20px;
+    padding:10px;
+    margin:10px;
+    color:#fff;
+    text-shadow: 3px 3px #000;
+}
+
+#portfolio h2{
+    font-size:35px;
+    margin:0;
+    padding-bottom:10px;
+}
+
+#portfolio h3{
+    font-size:20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin:0;
+}
+
+#port-gallery-cont{
+    background-color: #fff;
+    background-size: cover;
+    position: absolute;
+    border-radius: 20px;
+    opacity: .9;
+}
+
+/*family photos*/
+#fam-img-one{
+    padding:0;
+    margin:0;
+}
+
+#fam-img-one :hover{
+    width: 600%;
+    z-index: 100;
+    margin: 0;
+    display: block;
+    border-radius: 10px;
+}
+
+#fam-img-two{
+    padding:0;
+    margin:0;
+}
+
+#fam-img-two :hover{
+    width: 600%;
+    z-index: 100;
+    border-radius: 10px;
+}
+
+#fam-img-three{
+    padding:0;
+    margin:0;
+}
+
+#fam-img-three :hover{
+    width: 600%;
+    z-index: 100;
+    border-radius: 10px;
+}
+
+#fam-img-four{
+    padding:0;
+    margin:0;
+}
+
+#fam-img-four :hover{
+    width: 600%;
+    z-index: 100;
+    border-radius: 10px;
+}
+
+#fam-img-five{
+    padding:0;
+    margin:0;
+}
+
+#fam-img-five :hover{
+    width: 600%;
+    z-index: 99;
+    border-radius: 10px;
+}
+
+#fam-img-six{
+    padding:0;
+    margin:0;
+}
+
+#fam-img-six :hover{
+    border-radius: 10px;
+    width: 500%;
+    z-index: 100;
+    margin-right: 20px;
+}
+
+/*maternity photos*/
+#mat-img-one{
+    padding:0;
+    margin:0;
+}
+
+#mat-img-one :hover{
+    width: 600%;
+    z-index: 99;
+    border-radius: 10px;
+}
+
+
+#mat-img-two{
+    padding:0;
+    margin:0;
+}
+
+#mat-img-two :hover{
+    width: 600%;
+    z-index: 99;
+    border-radius: 10px;
+}
+
+#mat-img-three{
+    padding:0;
+    margin:0;
+}
+
+#mat-img-three :hover{
+    width: 600%;
+    z-index: 99;
+    border-radius: 10px;
+}
+
+/*engagement photos*/
+#eng-img-one{
+    padding:0;
+    margin:0;
+}
+
+#eng-img-one :hover{
+    width: 600%;
+    z-index: 99;
+    border-radius: 10px;
+}
+
+#eng-img-two{
+    padding:0;
+    margin:0;
+}
+
+#eng-img-two :hover{
+    width: 600%;
+    z-index: 99;
+    border-radius: 10px;
+}
+
+#eng-img-three{
+    padding:0;
+    margin:0;
+}
+
+#eng-img-three :hover{
+    width: 600%;
+    z-index: 99;
+    border-radius: 10px;
+}
+
+/*reviews*/
+
+#reviews{
+    background:#56a79a;
+    border-radius:20px;
+    padding:10px;
+    margin:10px;
+    color:#fff;
+}
+
+#reviews h2{
+    font-size:35px;
+    margin:0;
+    padding-top: 10px;
+    padding-bottom:10px;
+    color:#fff;
+    text-shadow: 3px 3px #000;
+}
+
+#reviews h4{
+    color:#ccc;
+    text-shadow: 1px 1px #000;
+}
+
+#amie-note{
+    background: #333;
+    color: antiquewhite;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#sarah-note{
+    background: #333;
+    color: antiquewhite;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#tristan-note{
+    background: #333;
+    color: antiquewhite;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+/*investment*/
+
+#fam-session-content{
+    background: #333;
+    color: antiquewhite;
+    border-radius: 10px;
+    padding:0;
+    margin:0;
+}
+
+#mat-session-content{
+    background: #333;
+    color: antiquewhite;
+    border-radius: 10px;
+    padding:0;
+    margin:0;
+}
+
+#eng-session-content{
+    background: #333;
+    color: antiquewhite;
+    border-radius: 10px;
+    padding:0;
+    margin:0;
+}
+
+#invSubText{
+    font-size:12px;
+    color: #222;
+    text-decoration: underline;
+}
+
+/*company*/
+#company{
+    background: #333;
+    color:#fff;
+    padding:10px 0;
+}
+
+#company h4{
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#company ul{
+    padding:0;
+    list-style: none;
+    line-height: 2em;
+}
+
+#company input[type="text"]{
+    padding:7px;
+}
+
+#company button{
+    background: #222;
+    color:#fff;
+    padding:10px;
+    border:0;
+}
+
+
+#company li{
+    padding-right: 10px;
+    list-style: none;
+}
+
+#company a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#company li.current a, #company a:hover{
+    color:#56a79a;
+    border-bottom: 3x solid #56a79a;
+    padding-bottom: 3px;
+}
+
+/*footer*/
+
+#main-footer{
+    background: #56a79a;
+    color: #fff;
+}
+
+/*page*/
+#page{
+    margin-bottom: 40px;
+}
+
+/*services*/
+.services ul li{
+    list-style: none;
+    padding:10px;
+}
+
+.services ul li:nth-child(odd){
+    background: #333;
+    color:#fff;
+}
+
+.services ul li:nth-child(even){
+    background: #56a79a;
+    color:#fff;
+}
+
+/*contact*/
+.contact form{
+    background: #333;
+    color:#fff;
+    padding:20px;
+}
+
+.contact form input[type="text"]{
+    width:50%;
+    height:30px;
+    margin-bottom: 10px;
+}
+
+.contact form textarea{
+    width:50%;
+    height:100px;
+}
+
+.contact form button{
+    width:50%;
+    padding:10px 0;
+    border:0;
+    background: #222;
+    color:#fff;
+}
+
+.contact form label{
+    text-transform: uppercase;
+}
+
+
+
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right:30px;
+    z-index:99;
+    border:none;
+    outline:none;
+    color:white;
+    cursor:pointer;
+    padding:15px;
+    border-radius:10px;
+    font-size:18px;
+}
+
+#myBtn:hover{
+    background-color: #555
+}
+
+/*media queries*/
+@media(max-width:800px){
+    #showcase h1{
+        font-size:30px;
+    }
+}
+
+@media(max-width:500px){
+    #showcase-content{
+        padding:40px 10px;
+    }
+}
+
+@media(max-width:800px){
+    #fam-img-one{
+        pointer-events: none;
+    }
+    #fam-img-two{
+        pointer-events: none;
+    }
+    #fam-img-three{
+        pointer-events: none;
+    }
+    #fam-img-four{
+        pointer-events: none;
+    }
+    #fam-img-five{
+        pointer-events: none;
+    }
+    #fam-img-six{
+        pointer-events: none;
+    }
+    #mat-img-one{
+        pointer-events: none;
+    }
+    #mat-img-two{
+        pointer-events: none;
+    }
+    #mat-img-three{
+        pointer-events: none;
+    }
+    #eng-img-one{
+        pointer-events: none;
+    }
+    #eng-img-two{
+        pointer-events: none;
+    }
+    #eng-img-three{ 
+        pointer-events: none;
+    }
+}
